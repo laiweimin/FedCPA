@@ -1,12 +1,12 @@
 # FedCPA
 
-This repository hosts the implementation of FedCPA: Federated Camouflaged Poisoning Attack. 
+This repository hosts the implementation of FedCPA: Federated Camouflaged Poisoning Attack in Federated Unlearning. 
 
 FedCPA is crafted to perform covert and targeted poisoning attacks within Federated Unlearning (FU) environments. 
 
 The codebase builds upon PFLlib, a widely-used library for federated learning experiments on GitHub. 
 
-In addition to implementing FedCPA, this project introduces various Federated Unlearning algorithms ("Retrain", "FedEraser", "FedRecover", "FedRecovery", "FedForgotten") and extends Byzantine-robust aggregation rules("Krum", "TrimmedMean", "Bulyan", "LIE", "Median") to counteract the FedCPA threat effectively.
+In addition to implementing FedCPA, this project introduces various Federated Unlearning algorithms and extends Byzantine-robust aggregation rules to counteract the FedCPA threat effectively.
 
 ## Getting Started
 
