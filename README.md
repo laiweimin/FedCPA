@@ -56,4 +56,4 @@ python main.py -lbs 32 -nc 20 -lr 0.01 -ls 10 -jr 1 -nb 10 -data Cifar10 -m cnn 
 - `-unl` or `--unlearning`: Specifies the type of federated unlearning method to use, options include ```"NoUnlearning"```, ```"Retrain"```, ```"FedEraser"```, ```"FedRecover"```, ```"FedRecovery"```, ```"FedForgotten"```.
 - `-unlt` or `--unlearning_type`: Determines the scope of data unlearning, options are ```"UnlearningData"``` for specific data points or ```"UnlearningClient"``` for entire client data. Default is ```"UnlearningData"```.
 ### Defense Mechanisms
-- `-def` or `--defense`: Type of defense mechanism to be applied, choices are ```"NoDefense"```, ```"Krum"```, ```"TrimmedMean"```, ```"Bulyan"```, ```"LIE"```, ```"Median"```. Default is ```"NoDefense"```.
+- `-def` or `--defense`: Type of defense mechanism to be applied.
